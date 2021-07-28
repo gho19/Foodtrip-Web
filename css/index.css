@@ -124,30 +124,12 @@ a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   font-family: 'Quicksand', sans-serif;
 }
 
 .button:hover{
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.6);
-
-}
-
-/* Responsive columns */
-@media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 50px;
-  }
-
-  .column-2 {
-    width: 100%;
-    display: block;
-    margin-bottom: 50px;
-    padding: 0 30px;
-  }
-
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Style the counter cards */
@@ -191,6 +173,24 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .column-2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+    padding: 0 30px;
+  }
+
+}
+
 
 @media screen and (max-width: 800px) {
   .mock-1 {
@@ -239,5 +239,23 @@ a {
     font-weight: bold;
     padding-top: 0px;
   }
+
+
+  .button {
+    background-color: #2F4858;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'Quicksand', sans-serif;
+  }
+
 
 }
