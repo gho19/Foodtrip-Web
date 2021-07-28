@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.home {
+  background-color: #74AC86;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 60px;
+}
+
+.filler {
+  background-color: #E5E5E5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.how-it-works {
+  background-color: #FAE1A6;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 70px;
+}
+
+.waitlist {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22.5px;
+  color: white;
+  font-style: italic;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  color: #333;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22.5px;
+  color: #333;
+}
+
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  color: #333;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 25px;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 0 50px;
+}
+
+.column-3 {
+  float: left;
+  width: 50%;
+  padding: 0 50px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #2F4858;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.button:hover{
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.6);
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1400px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .column-2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+    padding: 0 30px;
+  }
+
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #323440;
+  border-radius: 25px;
+  height: 475px;
+}
+
+.card-2 {
+  text-align: center;
+  border-radius: 50%;
+  height: 400px;
+}
+
+.card-3 {
+  text-align: center;
+  border-radius: 50%;
+  height: 500px;
+}
+
+.mock-1 {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mock-2 {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.honey {
+  width: 135vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .mock-1 {
+    width: 100%;
+    padding-top: 180px;
+  }
+
+  .mock-2 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .how-it-works {
+    background-color: #FAE1A6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 100px;
+  }
+
+  h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22.5px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-left: -140px;
+  }
+
+  h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18.5px;
+    color: #333;
+    margin-top: -30px;
+  }
+
+  h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+    padding-top: 0px;
+  }
+
+}
