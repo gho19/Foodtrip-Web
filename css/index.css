@@ -133,7 +133,7 @@ a {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
     display: block;
