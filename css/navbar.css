@@ -17,7 +17,7 @@ body.fade {
 }
 
 nav {
-    height: 14.25vh;
+    height: 15.25vh;
     width: 100vw;
     background-color: white;
     display: flex;
@@ -81,15 +81,17 @@ nav {
     .logo {
       display: flex;
       width: 10vw;
-      padding-top: 5vw;
+      padding-top: 4.5vw;
       padding-left: 5vw;
       position: relative;
       background-color: white;
+      position: fixed;
     }
 
     nav {
         position: fixed;
         z-index: 3;
+        height: 15.75vh;
         color: white;
     }
     .hamburger{

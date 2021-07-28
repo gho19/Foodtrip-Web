@@ -9,8 +9,8 @@ body {
 .home {
   background-color: #74AC86;
   text-align: center;
-  padding-top: 160px;
-  padding-bottom: 60px;
+  padding-top: 140px;
+  padding-bottom: 130px;
 }
 
 .filler {
@@ -30,7 +30,7 @@ body {
   padding-left: 7.5%;
   padding-right: 7.5%;
   padding-top: 70px;
-  padding-bottom: 35px;
+  padding-bottom: 0px;
 }
 
 .waitlist {
@@ -39,7 +39,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 50px;
 }
 
 h1 {
@@ -73,7 +72,7 @@ h5 {
   font-size: 50px;
   color: #333;
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 
 
@@ -189,6 +188,8 @@ a {
     padding: 0 30px;
   }
 
+  .row {padding-top: 0px;}
+
 }
 
 
@@ -214,6 +215,7 @@ a {
     padding-left: 7.5%;
     padding-right: 7.5%;
     padding-top: 100px;
+    padding-bottom: 20px;
   }
 
   h2 {
@@ -225,12 +227,21 @@ a {
     padding-left: -140px;
   }
 
+  h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+    padding-top: 60px;
+  }
+
   h4 {
     font-family: 'Quicksand', sans-serif;
     font-size: 18.5px;
     color: #333;
     margin-top: -30px;
   }
+
 
   h5 {
     font-family: 'Quicksand', sans-serif;
