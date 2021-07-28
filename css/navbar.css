@@ -91,7 +91,7 @@ nav {
     nav {
         position: fixed;
         z-index: 3;
-        height: 16.5vh;
+        height: 16.75vh;
         color: white;
     }
     .hamburger{
