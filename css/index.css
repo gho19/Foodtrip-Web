@@ -30,7 +30,19 @@ body {
   padding-left: 7.5%;
   padding-right: 7.5%;
   padding-top: 70px;
-  padding-bottom: 0px;
+  padding-bottom: 150px;
+}
+
+.how-it-works-2 {
+  background-color: #e8cc89;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 90px;
+  padding-bottom: 150px;
 }
 
 .waitlist {
@@ -63,8 +75,10 @@ h3 {
 
 h4 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 22.5px;
+  font-size: 25px;
   color: #333;
+  text-align: left;
+  padding-top: 70px;
 }
 
 h5 {
@@ -74,7 +88,6 @@ h5 {
   font-weight: bold;
   padding-top: 80px;
 }
-
 
 a {
   text-decoration: none;
@@ -142,7 +155,6 @@ a {
 
 .card-2 {
   text-align: center;
-  border-radius: 50%;
   height: 400px;
 }
 
@@ -190,6 +202,11 @@ a {
 
   .row {padding-top: 0px;}
 
+  .card-2 {
+    text-align: center;
+    border-radius: 50%;
+  }
+
 }
 
 
@@ -214,8 +231,21 @@ a {
     text-align: center;
     padding-left: 7.5%;
     padding-right: 7.5%;
-    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 120px;
+  }
+
+  .how-it-works-2 {
+    background-color: #e8cc89;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 0px;
     padding-bottom: 20px;
+
   }
 
   h2 {
@@ -237,9 +267,10 @@ a {
 
   h4 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 16.5px;
+    font-size: 20px;
     color: #333;
-    margin-top: -30px;
+    text-align: center;
+    padding-top: 50px;
   }
 
 
