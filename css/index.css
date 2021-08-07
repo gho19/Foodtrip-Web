@@ -248,6 +248,12 @@ a {
 
   }
 
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    color: white;
+  }
+
   h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 22.5px;
